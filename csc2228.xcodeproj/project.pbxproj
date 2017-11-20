@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0039BA5F3F85C2C0E4D65FB3 /* Pods_csc2228.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2133C4394872A9F53B8F016E /* Pods_csc2228.framework */; };
+		B70D9EBD7C27E63E11FDA270 /* Pods_csc2228.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEFFC5D4F80F2010977B9A39 /* Pods_csc2228.framework */; };
 		E5B901E81F8D73B900F73F65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B901E71F8D73B900F73F65 /* AppDelegate.swift */; };
 		E5B901EA1F8D73B900F73F65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B901E91F8D73B900F73F65 /* ViewController.swift */; };
 		E5B901ED1F8D73B900F73F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E5B901EB1F8D73B900F73F65 /* Main.storyboard */; };
@@ -19,6 +19,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		C37953261FC2A80400FE75DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5B901FD1F8D744A00F73F65 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = FE6C473C942EBCA82DD88F20E5D90612;
+			remoteInfo = AWSCore;
+		};
+		C37953281FC2A80400FE75DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E5B901FD1F8D744A00F73F65 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 909AB8813535B2A01222EA12BB410476;
+			remoteInfo = AWSDynamoDB;
+		};
 		E5B902021F8D744A00F73F65 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = E5B901FD1F8D744A00F73F65 /* Pods.xcodeproj */;
@@ -36,9 +50,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2133C4394872A9F53B8F016E /* Pods_csc2228.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_csc2228.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		88FF34F0409D9C03A6516003 /* Pods-csc2228.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-csc2228.debug.xcconfig"; path = "Pods/Target Support Files/Pods-csc2228/Pods-csc2228.debug.xcconfig"; sourceTree = "<group>"; };
-		C0ACAA26D4097DC1C9086F03 /* Pods-csc2228.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-csc2228.release.xcconfig"; path = "Pods/Target Support Files/Pods-csc2228/Pods-csc2228.release.xcconfig"; sourceTree = "<group>"; };
+		333BDB5AE4F5E6BE6D746ED9 /* Pods-csc2228.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-csc2228.debug.xcconfig"; path = "Pods/Target Support Files/Pods-csc2228/Pods-csc2228.debug.xcconfig"; sourceTree = "<group>"; };
+		B9B0FC8CBF7C5E4C2A5825C8 /* Pods-csc2228.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-csc2228.release.xcconfig"; path = "Pods/Target Support Files/Pods-csc2228/Pods-csc2228.release.xcconfig"; sourceTree = "<group>"; };
+		DEFFC5D4F80F2010977B9A39 /* Pods_csc2228.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_csc2228.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B901E41F8D73B900F73F65 /* csc2228.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = csc2228.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5B901E71F8D73B900F73F65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E5B901E91F8D73B900F73F65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -58,18 +72,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0039BA5F3F85C2C0E4D65FB3 /* Pods_csc2228.framework in Frameworks */,
+				B70D9EBD7C27E63E11FDA270 /* Pods_csc2228.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4584932565DBB1F4AD033EE4 /* Pods */ = {
+		3BE0304A1F1EEA537B67DE3F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				88FF34F0409D9C03A6516003 /* Pods-csc2228.debug.xcconfig */,
-				C0ACAA26D4097DC1C9086F03 /* Pods-csc2228.release.xcconfig */,
+				333BDB5AE4F5E6BE6D746ED9 /* Pods-csc2228.debug.xcconfig */,
+				B9B0FC8CBF7C5E4C2A5825C8 /* Pods-csc2228.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -79,7 +93,7 @@
 			children = (
 				E5B901FD1F8D744A00F73F65 /* Pods.xcodeproj */,
 				E5B901FB1F8D743600F73F65 /* Pods */,
-				2133C4394872A9F53B8F016E /* Pods_csc2228.framework */,
+				DEFFC5D4F80F2010977B9A39 /* Pods_csc2228.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -90,8 +104,8 @@
 				E5B901F91F8D73D400F73F65 /* Podfile */,
 				E5B901E61F8D73B900F73F65 /* csc2228 */,
 				E5B901E51F8D73B900F73F65 /* Products */,
-				4584932565DBB1F4AD033EE4 /* Pods */,
 				C768C675FC5CE067E03FEF21 /* Frameworks */,
+				3BE0304A1F1EEA537B67DE3F /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -121,6 +135,8 @@
 		E5B901FE1F8D744A00F73F65 /* Products */ = {
 			isa = PBXGroup;
 			children = (
+				C37953271FC2A80400FE75DD /* AWSCore.framework */,
+				C37953291FC2A80400FE75DD /* AWSDynamoDB.framework */,
 				E5B902031F8D744A00F73F65 /* Pods_csc2228.framework */,
 				E5B902051F8D744A00F73F65 /* RAMPaperSwitch.framework */,
 			);
@@ -134,12 +150,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E5B901F61F8D73B900F73F65 /* Build configuration list for PBXNativeTarget "csc2228" */;
 			buildPhases = (
-				C30E384FDB12E571260F7E14 /* [CP] Check Pods Manifest.lock */,
+				B845A43B5057796A0C435496 /* [CP] Check Pods Manifest.lock */,
 				E5B901E01F8D73B900F73F65 /* Sources */,
 				E5B901E11F8D73B900F73F65 /* Frameworks */,
 				E5B901E21F8D73B900F73F65 /* Resources */,
-				1E273C35190CD698BFC192C1 /* [CP] Embed Pods Frameworks */,
-				593745E8565C4F649C3EBBE2 /* [CP] Copy Pods Resources */,
+				B7B8F2CC582E2B67DC248319 /* [CP] Embed Pods Frameworks */,
+				6077EF9FCEEB0D90E45C5FC1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -194,6 +210,20 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		C37953271FC2A80400FE75DD /* AWSCore.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AWSCore.framework;
+			remoteRef = C37953261FC2A80400FE75DD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		C37953291FC2A80400FE75DD /* AWSDynamoDB.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = AWSDynamoDB.framework;
+			remoteRef = C37953281FC2A80400FE75DD /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		E5B902031F8D744A00F73F65 /* Pods_csc2228.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
@@ -225,25 +255,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1E273C35190CD698BFC192C1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-csc2228/Pods-csc2228-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/RAMPaperSwitch/RAMPaperSwitch.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMPaperSwitch.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-csc2228/Pods-csc2228-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		593745E8565C4F649C3EBBE2 /* [CP] Copy Pods Resources */ = {
+		6077EF9FCEEB0D90E45C5FC1 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -258,7 +270,33 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-csc2228/Pods-csc2228-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C30E384FDB12E571260F7E14 /* [CP] Check Pods Manifest.lock */ = {
+		B7B8F2CC582E2B67DC248319 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-csc2228/Pods-csc2228-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AWSCognito/AWSCognito.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCognitoIdentityProvider/AWSCognitoIdentityProvider.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSCore/AWSCore.framework",
+				"${BUILT_PRODUCTS_DIR}/AWSDynamoDB/AWSDynamoDB.framework",
+				"${BUILT_PRODUCTS_DIR}/RAMPaperSwitch/RAMPaperSwitch.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognito.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCognitoIdentityProvider.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSCore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AWSDynamoDB.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RAMPaperSwitch.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-csc2228/Pods-csc2228-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B845A43B5057796A0C435496 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -421,11 +459,11 @@
 		};
 		E5B901F71F8D73B900F73F65 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88FF34F0409D9C03A6516003 /* Pods-csc2228.debug.xcconfig */;
+			baseConfigurationReference = 333BDB5AE4F5E6BE6D746ED9 /* Pods-csc2228.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8QLBQ8T42M;
+				DEVELOPMENT_TEAM = Z53TEUHT99;
 				INFOPLIST_FILE = csc2228/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -438,11 +476,11 @@
 		};
 		E5B901F81F8D73B900F73F65 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C0ACAA26D4097DC1C9086F03 /* Pods-csc2228.release.xcconfig */;
+			baseConfigurationReference = B9B0FC8CBF7C5E4C2A5825C8 /* Pods-csc2228.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 8QLBQ8T42M;
+				DEVELOPMENT_TEAM = Z53TEUHT99;
 				INFOPLIST_FILE = csc2228/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

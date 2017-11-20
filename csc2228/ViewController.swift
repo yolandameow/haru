@@ -45,18 +45,35 @@ class ViewController: UITableViewController {
             disableAll(ramSwitch:sender)
             switch sender {
             case switch1:
-                print(Constants.SWITCH_STUDY)
-                service.newTimerTask(action:Constants.SWITCH_STUDY)
+                print("===== Mode activated: =====\n"+Constants.SWITCH_STILL)
+                service.newTimerTask(action:Constants.SWITCH_STILL)
                 break
-                
+            case switch2:
+                print("===== Mode activated: =====\n"+Constants.SWITCH_WALKING)
+                service.newTimerTask(action: Constants.SWITCH_WALKING)
+                break
+            case switch3:
+                print("===== Mode activated: =====\n"+Constants.SWITCH_RUNNING)
+                service.newTimerTask(action: Constants.SWITCH_RUNNING)
+                break
+            case switch4:
+                print("===== Mode activated: =====\n"+Constants.SWITCH_GO_UP)
+                service.newTimerTask(action: Constants.SWITCH_GO_UP)
+                break
+            case switch5:
+                print("===== Mode activated: =====\n"+Constants.SWITCH_GO_DOWN)
+                service.newTimerTask(action: Constants.SWITCH_GO_DOWN)
+                break
+
             default:
-                
+                print("Can you tell me how to trigger a non-existing button?")
                 break
             }
             
         }
         else{
-            service.clearTimers()
+            service.sendExistingData()
+            service.cleanAll()
             enableAll()
         }
         
