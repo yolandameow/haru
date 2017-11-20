@@ -1,4 +1,5 @@
 *.lock
 */*.lock
+settings.plist
 Pods/*
 csc2228.xcworkspace
